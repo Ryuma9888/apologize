@@ -1,0 +1,329 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffe4ec">
+  <title>I'm Sorry, Rema ❤️</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow-x: hidden;
+      padding: 20px;
+      font-family: "Trebuchet MS", Arial, sans-serif;
+      background: linear-gradient(135deg, #ffe4ec, #fff0f5, #ffd6e4);
+      color: #74334b;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 430px;
+      padding: 30px 22px;
+      border: 1px solid rgba(255,255,255,.8);
+      border-radius: 28px;
+      background: rgba(255,255,255,.82);
+      box-shadow: 0 15px 45px rgba(196, 87, 124, .17);
+      text-align: center;
+      position: relative;
+      z-index: 2;
+    }
+
+    .teddy {
+      display: inline-block;
+      font-size: 82px;
+      transform-origin: bottom center;
+      animation: sway 2s ease-in-out infinite;
+    }
+
+    @keyframes sway {
+      0%, 100% { transform: rotate(-9deg); }
+      50% { transform: rotate(9deg); }
+    }
+
+    h1 {
+      margin: 12px 0;
+      color: #d94f7b;
+      font-size: clamp(27px, 7vw, 36px);
+    }
+
+    .subtitle {
+      font-size: 16px;
+      line-height: 1.7;
+      color: #75465a;
+    }
+
+    .letter {
+      padding: 18px;
+      margin: 22px 0;
+      background: #fff0f5;
+      border-radius: 18px;
+      font-size: 15px;
+      line-height: 1.85;
+      text-align: left;
+    }
+
+    .question {
+      margin: 22px 0 18px;
+      font-size: 21px;
+      font-weight: bold;
+      color: #c83e6c;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      min-height: 65px;
+    }
+
+    button {
+      border: none;
+      border-radius: 50px;
+      padding: 13px 25px;
+      font-size: 16px;
+      font-weight: bold;
+      font-family: inherit;
+      cursor: pointer;
+      touch-action: manipulation;
+      transition: transform .25s ease, box-shadow .25s ease;
+    }
+
+    #yesBtn {
+      color: white;
+      background: linear-gradient(135deg, #ff6090, #e83e76);
+      box-shadow: 0 5px 15px rgba(232, 62, 118, .25);
+    }
+
+    #noBtn {
+      color: #c74470;
+      background: #ffe0ea;
+    }
+
+    button:focus-visible {
+      outline: 3px solid #a92d5b;
+      outline-offset: 4px;
+    }
+
+    .footer {
+      margin-top: 23px;
+      font-size: 12px;
+      color: #b47b91;
+    }
+
+    #success {
+      display: none;
+      margin-top: 22px;
+      padding: 20px;
+      border-radius: 18px;
+      background: #fff0f5;
+      line-height: 1.8;
+      animation: appear .6s ease;
+    }
+
+    #success h2 {
+      color: #d94f7b;
+    }
+
+    @keyframes appear {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .heart {
+      position: fixed;
+      bottom: -35px;
+      z-index: 5;
+      pointer-events: none;
+      animation: floatUp 4s ease-in forwards;
+    }
+
+    @keyframes floatUp {
+      0% {
+        opacity: 0;
+        transform: translateY(0) rotate(0deg) scale(.7);
+      }
+      15% { opacity: 1; }
+      100% {
+        opacity: 0;
+        transform: translateY(-110vh) rotate(35deg) scale(1.4);
+      }
+    }
+
+    @media (max-width: 380px) {
+      .card { padding: 24px 16px; }
+      .letter { padding: 15px; }
+      button { padding: 12px 21px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="card">
+    <div class="teddy" aria-label="Teddy bear">🧸</div>
+
+    <h1>I'm Sorry, Rema ❤️</h1>
+
+    <p class="subtitle">
+      There's something important I want you to know, from my heart.
+    </p>
+
+    <section class="letter">
+      My dearest Rema, ❤️<br><br>
+
+      I know there's been a misunderstanding that has made you
+      question my loyalty, and it hurts me to know that you're
+      feeling this way.<br><br>
+
+      I want you to know that your feelings matter to me. I never
+      want you to feel insecure, unimportant, or uncertain about
+      where you stand in my life.<br><br>
+
+      
+
+      Trust isn't built by words alone. It's built through honesty,
+      patience, respect, and consistent actions. I'm willing to do
+      my part to help us understand each other better and make our
+      relationship stronger.<br><br>
+
+      You mean so much to me, Rema. ❤️ I don't want a
+      misunderstanding to come between us..<br><br>
+
+      I'm not asking you to forget how you feel. I'm asking for
+      the chance to talk, reassure each other, and work through
+      this together.<br><br>
+
+      <strong>I'm sorry, Rema. You matter to me, and so does the
+      trust we share. ❤️</strong><br><br>
+
+      With love from your Dummy,<br>
+      Yours always ❤️
+    </section>
+
+    <p class="question" id="question">
+      Can we work through this together, Rema? 🥺
+    </p>
+
+    <div class="buttons" id="buttons">
+      <button id="yesBtn" type="button">Yes, let's ❤️</button>
+      <button id="noBtn" type="button">Not yet 🥺</button>
+    </div>
+
+    <section id="success" aria-live="polite">
+      <div style="font-size: 48px;">💖🧸💖</div>
+      <h2>Thank you, Rema ❤️</h2>
+      <p>
+        Thank you for giving us a chance to talk and understand
+        each other. i will do my best to show
+        you through my actions how much our relationship matters
+        to me.
+      </p>
+      <p><strong>One step at a time, together. ❤️</strong></p>
+    </section>
+
+    <div class="footer">
+      Made with love, just for Rema 💗
+    </div>
+  </main>
+
+  <script>
+   
+const NAME = "Rema";
+
+const yesBtn = document.getElementById("yesBtn");
+const noBtn = document.getElementById("noBtn");
+const buttons = document.getElementById("buttons");
+const question = document.getElementById("question");
+const success = document.getElementById("success");
+
+let yesScale = 1;
+let noAttempts = 0;
+let accepted = false;
+
+// The No button dodges and makes Yes grow.
+function dodgeNo() {
+  if (accepted) return;
+
+  noAttempts++;
+
+  yesScale = Math.min(yesScale + 0.12, 1.8);
+  yesBtn.style.transform = `scale(${yesScale})`;
+
+  const maxX = Math.min(90, window.innerWidth * 0.2);
+  const x = (Math.random() * 2 - 1) * maxX;
+  const y = (Math.random() * 2 - 1) * 55;
+
+  noBtn.style.transform = `translate(${x}px, ${y}px)`;
+
+  const messages = [
+    `Are you sure, ${NAME}? 🥺`,
+    "Can we talk first? ❤️",
+    "I'll listen to you 💗",
+    "Let's understand each other 🧸",
+    "One conversation, please? ❤️"
+  ];
+
+  question.textContent =
+    messages[Math.min(noAttempts - 1, messages.length - 1)];
+}
+
+noBtn.addEventListener("click", dodgeNo);
+
+// One tap on Yes immediately shows the celebration.
+yesBtn.addEventListener("click", () => {
+  if (accepted) return;
+
+  forgive();
+});
+
+function forgive() {
+  if (accepted) return;
+  accepted = true;
+
+  question.textContent = `Thank you for hearing me, ${NAME}. ❤️`;
+  buttons.style.display = "none";
+  success.style.display = "block";
+
+  for (let i = 0; i < 45; i++) {
+    setTimeout(createHeart, i * 90);
+  }
+}
+
+function createHeart() {
+  const heart = document.createElement("div");
+  heart.className = "heart";
+
+  const symbols = ["❤️", "💗", "💕", "💖", "💘", "🌸"];
+  heart.textContent =
+    symbols[Math.floor(Math.random() * symbols.length)];
+
+  heart.style.left = Math.random() * 100 + "vw";
+  heart.style.fontSize = (16 + Math.random() * 22) + "px";
+  heart.style.animationDuration = (3 + Math.random() * 3) + "s";
+
+  document.body.appendChild(heart);
+  setTimeout(() => heart.remove(), 6500);
+}
+</script>
+</body>
+</html>
